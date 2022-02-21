@@ -14,6 +14,10 @@ export default {
 
 <style scoped>
 #map{
+    position: relative;
+    padding-bottom: 56%;
+    
+    text-align: center;
     flex: 10%;
     align-content: center;
 }
