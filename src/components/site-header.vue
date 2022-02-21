@@ -8,6 +8,7 @@
 </template>
 <script>
 export default {
+    name: 'site-header',
     props:{
         title: String,
         text: String

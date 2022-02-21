@@ -1,17 +1,17 @@
 <template>
     <Header title="ISS Location Tracker" text="Where to find the International Space Station right now?"/>
-    <Map />
+    <Body />
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Map from './components/Map.vue'
+import Header from './components/site-header.vue'
+import Body from './components/site-body.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Map
+    Body, 
   }
 }
 </script>
@@ -49,5 +49,17 @@ html{
 #header hr{
   border-top: 1% solid red;
 }
+
+.box{
+  margin: auto;
+  position: relative;
+  text-align: center;
+  
+  width:37.5rem;
+  height:7.5rem;
+  border: 0.1rem dotted grey;
+}
+
+
 
 </style>
