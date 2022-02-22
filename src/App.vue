@@ -60,6 +60,11 @@ html{
   border: 0.1rem dotted grey;
 }
 
+#map{
+  height: 400px;
+  width: 100px;
+}
+
 
 
 </style>
